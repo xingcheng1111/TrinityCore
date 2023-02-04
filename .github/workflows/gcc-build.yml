@@ -23,7 +23,7 @@ jobs:
       run: |
         cd bin
         make -j 4 -k && make install
-    - name: Unit tests
+    - name: Unit test
       run: |
         cd bin
         make test
